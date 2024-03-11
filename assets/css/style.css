@@ -1,7 +1,15 @@
-* {
+:root {
+  --White: #fff;
+  --Light-pink: #f9f0ff;
+  --Grayish-purple: #8c6991;
+  --Dark-purple: #2f1533;
+}
+*,
+a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 @font-face {
   font-family: "WorkSans";
@@ -11,6 +19,11 @@
   font-family: "WorkSansItalic";
   src: url(../fonts/WorkSans-Italic-VariableFont_wght.ttf);
 }
+body {
+  font-family: "WorkSans";
+  color: var(--Dark-purple);
+  font-size: 1rem;
+}
 
 /* --- FOOTER --- */
 .attribution {
@@ -18,5 +31,5 @@
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
